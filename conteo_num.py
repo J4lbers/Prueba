@@ -1,0 +1,11 @@
+print("Ingrse 6 digitos:")
+a = int(input("Inserte primer digito: "))
+b = int(input("Inserte segundo digito: "))
+c = int(input("Inserte tercer digito: "))
+d = int(input("Inserte cuarto digito: "))
+e = int(input("Inserte quinto digito: "))
+f = int(input("Inserte sexto digito: "))
+x = (a,b,c,d,e,f)
+repite = 0
+cero = x.count(repite) 
+print("Cantidad de ceros: ", cero)

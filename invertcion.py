@@ -1,0 +1,8 @@
+print("Ingrese cantidades invertidas:")
+a = int(input("persona a:$"))
+b = int(input("persona b:$"))
+c = int(input("persona c:$"))
+d=(a+b+c)
+print("El porcentaje de la persona ""a"" invertida es:",(a*100)/d,"%")
+print("El porcentaje de la persona ""b"" invertida es:",(b*100)/d,"%")
+print("El porcentaje de la persona ""c"" invertida es:",(c*100)/d,"%")
